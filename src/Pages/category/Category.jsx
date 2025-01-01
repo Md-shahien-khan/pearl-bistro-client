@@ -13,15 +13,25 @@ import slide7 from '../../../src/assets/home/burger.jpg'
 import slide8 from '../../../src/assets/home/kabab.jpg'
 import slide9 from '../../../src/assets/home/pizzza.jpg'
 import slide10 from '../../../src/assets/home/dessert.jpg'
+import SectionTitle from '../../Components/sectiontitle/SectionTitle';
 
 
 const Category = () => {
     return (
-        <div>
-            <div className='text-center p-10'>
-                <p className='text-yellow-500 text-xl'>---From 11:00am to 10:00pm</p>
-                <h3 className='text-yellow-700 text-3xl'>You can order as well!!!!</h3>
-            </div>
+    <section>
+        <div className='mt-2'>
+            <SectionTitle
+            subHeading={"From 11.00am to 10.00pm"}
+            heading={"Order online"}
+            ></SectionTitle>
+            {/* <div className="text-center  shadow-lg hover:scale-100 transform transition duration-300">
+            <p className="text-gray-600 text- md:text-2xl hover:text-black">
+                ---From 11:00am to 10:00pm
+            </p>
+            <h3 className="text-black text-xl font-bold hover:text-yellow-600 hover:shadow-lg hover:scale-105 transition duration-300 hover:underline">
+                You can order as well!!!!
+            </h3>
+            </div> */}
             <Swiper
             slidesPerView={3}
             spaceBetween={30}
@@ -72,7 +82,8 @@ const Category = () => {
                 <h3 className='text-xl md:text-4xl uppercase text-center text-white -mt-32 pb-0 md:pb-20'>Dessert</h3>
             </SwiperSlide>
         </Swiper>
-      </div>
+    </div>
+    </section>
     );
 };
 
