@@ -4,7 +4,7 @@ import aboutImg from '../../assets/home/chef-service.jpg';
 const About = () => {
     return (
         <div 
-            className="bg-cover bg-center bg-no-repeat  h-[600px] md:h-[500px] md:mt-20"
+            className="bg-cover bg-center bg-no-repeat h-[600px] md:h-[500px] mt-10 md:mt-20 bg-fixed"
             style={{ backgroundImage: `url(${aboutImg})` }}
         >
             {/* Center content within the parent div */}
