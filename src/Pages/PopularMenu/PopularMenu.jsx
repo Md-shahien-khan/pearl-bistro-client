@@ -24,7 +24,10 @@ const PopularMenu = () => {
                         key={item._id}
                         items={item}
                         ></MenuItem>)
-                }
+                }              
+            </div>
+            <div className='text-center'>
+                <button className="btn text-yellow-700 border-b-yellow-700 hover:bg-black">View Full Menu</button>
             </div>
         </section>
     );

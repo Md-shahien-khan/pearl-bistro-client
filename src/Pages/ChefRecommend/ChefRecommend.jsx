@@ -13,7 +13,7 @@ const ChefRecommend = () => {
             })
         }, [])
     return (
-        <div>
+        <div className='md:mt-32'>
             <SectionTitle
             subHeading={"Must Try"}
             heading={"Chef Recommends"}

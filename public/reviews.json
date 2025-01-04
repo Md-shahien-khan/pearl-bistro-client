@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "642c155b2c4774f05c36ee8a",
+    "name": "John Doe",
+    "details": "Great experience, the food was delicious and the service was excellent. Would definitely recommend!",
+    "rating": 5
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8b",
+    "name": "Jane Smith",
+    "details": "The food was good, but the wait time was a bit long. Overall, a pleasant experience.",
+    "rating": 4
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8c",
+    "name": "Mike Johnson",
+    "details": "I wasn't happy with my meal. The flavor was off and the staff seemed uninterested.",
+    "rating": 2
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8d",
+    "name": "Emily Davis",
+    "details": "Fantastic ambiance, the staff was friendly, and the meal was top-notch. I will be back soon!",
+    "rating": 5
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8e",
+    "name": "Chris Brown",
+    "details": "Average food, nothing special. It was okay but I expected more based on the reviews.",
+    "rating": 3
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8f",
+    "name": "Sarah Lee",
+    "details": "Amazing! Every dish was beautifully prepared. A great place for special occasions.",
+    "rating": 5
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee90",
+    "name": "David Wilson",
+    "details": "Food was fine, but there were a few issues with the order. The staff quickly resolved them, though.",
+    "rating": 4
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee91",
+    "name": "Olivia Martinez",
+    "details": "Horrible experience. The food was cold, and the server was rude. I will not be returning.",
+    "rating": 1
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee92",
+    "name": "Daniel Harris",
+    "details": "A solid place for a quick bite. Nothing extraordinary, but I was satisfied with my meal.",
+    "rating": 3
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee93",
+    "name": "Sophia Clark",
+    "details": "I had an unforgettable dinner here. The flavors were out of this world, and the service was impeccable.",
+    "rating": 5
+  }
+]
