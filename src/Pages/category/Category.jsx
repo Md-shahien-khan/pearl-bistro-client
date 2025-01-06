@@ -16,6 +16,7 @@ import slide10 from '../../../src/assets/home/dessert.jpg'
 import SectionTitle from '../../Components/sectiontitle/SectionTitle';
 
 
+
 const Category = () => {
     return (
     <section>

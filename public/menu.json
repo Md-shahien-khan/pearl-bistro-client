@@ -1,458 +1,329 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeaa",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
-        "price": 14.7
+      "_id": "642c155b2c4774f05c36eeaa",
+      "name": "Caesar Salad",
+      "recipe": "Toss Romaine lettuce with croutons and a creamy Caesar dressing made of mayo, garlic, anchovies, lemon, and Dijon mustard. Garnish with grated parmesan cheese for added flavor",
+      "image": "https://i.ibb.co/nQnjPmW/caesar-salad-with-fried-shrimps.jpg",
+      "category": "salad",
+      "price": 6.49
     },
     {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "drinks",
-        "price": 14.7
+      "_id": "642c155b2c4774f05c36eeab",
+      "name": "Greek Salad",
+      "recipe": "Combine cucumbers, tomatoes, red onions, and olives. Toss with feta cheese, olive oil, and a sprinkle of oregano for a refreshing, Mediterranean flavor",
+      "image": "https://i.ibb.co/qF8nTG1/salad-with-feta-cheese-olives-fresh-vegetables.jpg",
+      "category": "salad",
+      "price": 7.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Roasted duck breast",
-        "recipe": "Score the duck breast, season with salt and pepper, sear skin-side down until crispy, then roast in the oven until the meat is medium-rare",
-        "image": "https://i.ibb.co/3vwKQHM/tasty-lamb-ribs-close-up.jpg",
-        "category": "popular",
-        "price": 14.5
+      "_id": "642c155b2c4774f05c36eeac",
+      "name": "Chicken Salad",
+      "recipe": "Grill chicken breast and slice into strips. Toss with mixed greens, avocado slices, and drizzle with balsamic vinaigrette for a light, healthy meal",
+      "image": "https://i.ibb.co/YdKwhL8/flat-lay-salad-with-chicken-sesame-seeds.jpg",
+      "category": "salad",
+      "price": 8.49
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "_id": "642c155b2c4774f05c36eead",
+      "name": "Spinach Salad",
+      "recipe": "Combine fresh spinach leaves with sliced strawberries and toasted walnuts. Toss with balsamic dressing for a sweet and savory flavor combination",
+      "image": "https://i.ibb.co/WnWCXyH/high-angle-keto-diet-still-life.jpg",
+      "category": "salad",
+      "price": 6.99
+    },
+    
+    {
+      "_id": "642c155b2c4774f05c36eeae",
+      "name": "Margarita Pizza",
+      "recipe": "Spread a thin layer of tomato sauce on a pizza crust, then add fresh mozzarella slices and a few basil leaves. Drizzle with olive oil before baking until the crust is golden and cheese is melted",
+      "image": "https://i.ibb.co/KrBkjgg/homemade-pizza-food-photography-recipe-idea.jpg",
+      "category": "pizza",
+      "price": 8.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Lasagna",
-        "recipe": "Layer cooked pasta, ricotta cheese, marinara sauce, cooked ground beef, and mozzarella, then bake until bubbly and golden",
-        "image": "https://i.ibb.co/71V4FTt/lasagna.jpg",
-        "category": "popular",
-        "price": 14.5
+      "_id": "642c155b2c4774f05c36eeaf",
+      "name": "Pepperoni Pizza",
+      "recipe": "Spread tomato sauce on the pizza dough, then top with shredded mozzarella cheese and a generous amount of pepperoni slices. Bake until the crust is crispy and the cheese is melted and golden",
+      "image": "https://i.ibb.co/GJXdt9r/black-pizza-with-pepperoni-tomato-cheese.jpg",
+      "category": "pizza",
+      "price": 9.49
     },
     {
-        "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "_id": "642c155b2c4774f05c36eeb0",
+      "name": "Vegetarian Pizza",
+      "recipe": "Spread tomato sauce on the pizza dough and top with mozzarella cheese, then add a variety of vegetables like bell peppers, onions, olives, and mushrooms. Bake until the vegetables are tender and the cheese is golden",
+      "image": "https://i.ibb.co/pQyLspP/meat-pizza-bell-pepper-basil-arugula-tomato-cheese-onion-top-view.jpg",
+      "category": "pizza",
+      "price": 10.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "pizza",
-        "price": 12.5
+      "_id": "642c155b2c4774f05c36eeb1",
+      "name": "BBQ Chicken Pizza",
+      "recipe": "Spread BBQ sauce over the pizza crust, then layer with grilled chicken, red onions, and mozzarella cheese. Top with fresh cilantro before baking until bubbly and golden",
+      "image": "https://i.ibb.co/rb7JkXD/cheese-food-gourmet-oregano-eat.jpg",
+      "category": "pizza",
+      "price": 11.49
+    },
+    
+    {
+      "_id": "642c155b2c4774f05c36eeb2",
+      "name": "Tom Yum Soup",
+      "recipe": "Simmer shrimp, lemongrass, kaffir lime leaves, galangal, and Thai bird’s eye chilies in a broth of water and fish sauce. Add lime juice and fresh cilantro just before serving for a zesty, spicy, and aromatic flavor",
+      "image": "https://i.ibb.co/3CYyTvD/soup.jpg",
+      "category": "soup",
+      "price": 5.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee9e",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
+      "_id": "642c155b2c4774f05c36eeb3",
+      "name": "Chicken Soup",
+      "recipe": "Cook chicken pieces with carrots, celery, onions, and garlic in a seasoned broth of chicken stock. Season with salt and pepper, and simmer until the chicken is fully cooked and vegetables are tender.",
+      "image": "https://i.ibb.co/5cRNk1z/360-F-472622913-00rkwf-Tqr8ku-Bjq7-Y9gl-R0y-TJl-Lsrr-LG-Copy.jpg",
+      "category": "soup",
+      "price": 6.49
     },
     {
-        "_id": "642c155b2c4774f05c36eea6",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
+      "_id": "642c155b2c4774f05c36eeb4",
+      "name": "Minestrone Soup",
+      "recipe": "Combine vegetables such as onions, carrots, and celery with beans, pasta, and diced tomatoes in vegetable broth. Simmer until vegetables are tender and pasta is cooked, then season with herbs like oregano and basil",
+      "image": "https://i.ibb.co/7pcrCPM/istockphoto-467947693-612x612-Copy.jpg",
+      "category": "soup",
+      "price": 5.79
     },
     {
-        "_id": "642c155b2c4774f05c36eeaf",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "soup",
-        "price": 12.5
+      "_id": "642c155b2c4774f05c36eeb5",
+      "name": "Lentil Soup",
+      "recipe": "Cook lentils with onions, carrots, celery, and garlic in vegetable broth. Season with cumin, turmeric, and salt, then simmer until lentils are soft and the flavors have melded together for a hearty soup",
+      "image": "https://i.ibb.co/v450hR6/istockphoto-120599192-612x612-Copy.jpg",
+      "category": "soup",
+      "price": 5.99
+    },
+    
+    {
+      "_id": "642c155b2c4774f05c36eeb6",
+      "name": "Chicken Kebab",
+      "recipe": "Marinate chicken cubes in a mixture of yogurt, garlic, lemon juice, cumin, paprika, and spices. Skewer the marinated chicken and grill or bake until cooked through, ensuring it’s juicy and flavorful.",
+      "image": "https://i.ibb.co/TvwYTDh/tandoori-chicken-party-86717-16x9.jpg",
+      "category": "kebab",
+      "price": 7.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee89",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
+      "_id": "642c155b2c4774f05c36eeb7",
+      "name": "Lamb Kebab",
+      "recipe": "Season lamb chunks with ground cumin, coriander, garlic, lemon juice, and olive oil. Skewer and grill until the lamb is tender and slightly charred, offering a smoky, aromatic taste.",
+      "image": "https://i.ibb.co/Lg0hjZw/spicy-lamb-skewers-chinese-street-food-recipe-hero-01-7022c9e09c0a4af683de64ef00685f94.jpg",
+      "category": "kebab",
+      "price": 9.49
     },
     {
-        "_id": "642c155b2c4774f05c36ee8a",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "_id": "642c155b2c4774f05c36eeb8",
+      "name": "Beef Kebab",
+      "recipe": "Mix ground beef with finely chopped onions, garlic, olive oil, and spices like cumin and coriander. Form into skewers and grill until browned, creating a savory and tender kebab",
+      "image": "https://i.ibb.co/T0xpJs1/Beef-kebabs-easy-skewere-for-grill-or-oven.jpg",
+      "category": "kebab",
+      "price": 8.99
     },
     {
-        "_id": "642c155b2c4774f05c36ee96",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee81",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "offered",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee84",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "dessert",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea4",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee87",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee83",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "offered",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Season the pork belly with salt, pepper, and your favorite spices, then roast in a hot oven until the skin is crispy and the meat is tender",
-        "image": "https://i.ibb.co/VVK9k5p/tasty-appetizing-roasted-meat-pork-with-vegetables-thanksgiving-day-closeup.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea8",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
+      "_id": "642c155b2c4774f05c36eeb9",
+      "name": "Falafel Kebab",
+      "recipe": "Blend chickpeas, onions, garlic, parsley, cumin, and coriander into a dough, then shape into patties. Fry or bake until golden brown, serving with tahini sauce for a delicious, crispy vegetarian option",
+      "image": "https://i.ibb.co/CnmpL8z/bigstock-Vegetarian-Chickpea-Falafel-Pi-410242303.jpg",
+      "category": "kebab",
+      "price": 6.99
     },
     {
         "_id": "642c155b2c4774f05c36eeba",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "name": "Salmon Sushi",
+        "recipe": "Slice fresh salmon into thin pieces and serve atop a small bed of vinegared sushi rice. Garnish with wasabi and a touch of soy sauce for added flavor, ensuring a delicate balance of taste",
+        "image": "https://i.ibb.co/fvqt59N/Dragon-Roll-0286-I.jpg",
+        "category": "sushi",
+        "price": 12.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eebb",
+        "name": "Tuna Sushi",
+        "recipe": "Thinly slice fresh tuna and place it on a mound of vinegared sushi rice. Lightly dip in soy sauce and serve with wasabi, delivering a clean and rich sushi experience",
+        "image": "https://i.ibb.co/fvqt59N/Dragon-Roll-0286-I.jpg",
+        "category": "sushi",
+        "price": 13.49
+      },
+      {
+        "_id": "642c155b2c4774f05c36eebc",
+        "name": "California Roll",
+        "recipe": "Layer crab meat, avocado, and cucumber inside a sheet of nori and sushi rice. Roll tightly, then cut into bite-sized pieces, topping with a sprinkle of sesame seeds or imitation crab for extra flavor",
+        "image": "https://i.ibb.co/fvqt59N/Dragon-Roll-0286-I.jpg",
+        "category": "sushi",
+        "price": 10.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eebd",
+        "name": "Dragon Roll",
+        "recipe": "Fill a sushi roll with eel, avocado, and cucumber, then top with thinly sliced avocado and eel sauce, creating a visually striking and flavorful roll with a sweet and savory finish",
+        "image": "https://i.ibb.co/fvqt59N/Dragon-Roll-0286-I.jpg",
+        "category": "sushi",
+        "price": 14.99
+      },
+      
+      {
+        "_id": "642c155b2c4774f05c36eebe",
+        "name": "Ribeye Steak",
+        "recipe": "Season the ribeye steak with salt, pepper, and garlic before grilling or pan-searing to your desired level of doneness. Finish with a pat of butter and a sprinkle of fresh rosemary for added richness and flavor",
+        "image": "https://i.ibb.co/qjzyvHm/53-BGPNAB6-YI63-C7-LFNHEQGYVAA.jpg",
+        "category": "steak",
+        "price": 22.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eebf",
+        "name": "Filet Mignon",
+        "recipe": "Coat the filet mignon with olive oil, salt, and pepper, then sear in a hot skillet. Finish by roasting in the oven to your preferred doneness, and top with a dab of garlic butter and fresh thyme for a melt-in-your-mouth experience",
+        "image": "https://i.ibb.co/qjzyvHm/53-BGPNAB6-YI63-C7-LFNHEQGYVAA.jpg",
+        "category": "steak",
+        "price": 25.49
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "Sirloin Steak",
+        "recipe": "Rub the sirloin with olive oil, minced garlic, and fresh rosemary. Grill or pan-sear to your preferred level, then allow to rest before serving to lock in juices, offering a tender and flavorful bite",
+        "image": "https://i.ibb.co/qjzyvHm/53-BGPNAB6-YI63-C7-LFNHEQGYVAA.jpg",
+        "category": "steak",
+        "price": 19.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec1",
+        "name": "T-Bone Steak",
+        "recipe": "Season the T-bone steak with salt, pepper, and a bit of olive oil. Grill to perfection, ensuring a balance of tenderness from the filet side and rich flavor from the strip side, and serve with a drizzle of garlic butter",
+        "image": "https://i.ibb.co/qjzyvHm/53-BGPNAB6-YI63-C7-LFNHEQGYVAA.jpg",
+        "category": "steak",
+        "price": 21.49
+      },
+      
+      {
+        "_id": "642c155b2c4774f05c36eec2",
+        "name": "Chocolate Cake",
+        "recipe": "Mix flour, cocoa powder, sugar, eggs, and butter into a smooth batter, then bake at 350°F until a toothpick comes out clean. Once cooled, frost with rich chocolate ganache or buttercream for an indulgent treat",
+        "image": "https://i.ibb.co/C0kpT2M/layered-chocolate-tiramisu-cake-with-mascarpone-cream-generated-by-ai-188544-18033-1.jpg",
+        "category": "dessert",
+        "price": 4.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec3",
+        "name": "Tiramisu",
+        "recipe": "Layer coffee-soaked ladyfingers with a rich mascarpone mixture of eggs, sugar, and whipped cream. Dust with cocoa powder and refrigerate to set, creating a creamy, coffee-flavored dessert",
+        "image": "https://i.ibb.co/C0kpT2M/layered-chocolate-tiramisu-cake-with-mascarpone-cream-generated-by-ai-188544-18033-1.jpg",
+        "category": "dessert",
+        "price": 5.49
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec4",
+        "name": "Cheesecake",
+        "recipe": "Blend cream cheese, sugar, eggs, and vanilla until smooth, then pour over a graham cracker crust. Bake at 325°F until set, and chill overnight to achieve the perfect creamy texture, topping with fresh fruit or a drizzle of caramel",
+        "image": "https://i.ibb.co/C0kpT2M/layered-chocolate-tiramisu-cake-with-mascarpone-cream-generated-by-ai-188544-18033-1.jpg",
+        "category": "dessert",
+        "price": 6.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec5",
+        "name": "Lemon Meringue Pie",
+        "recipe": "Prepare a tangy lemon filling with sugar, lemon juice, eggs, and cornstarch, then pour into a pre-baked pie crust. Top with fluffy meringue made from whipped egg whites and sugar, and bake until golden brown",
+        "image": "https://i.ibb.co/C0kpT2M/layered-chocolate-tiramisu-cake-with-mascarpone-cream-generated-by-ai-188544-18033-1.jpg",
+        "category": "dessert",
+        "price": 5.99
+      },
+      
+      {
+        "_id": "642c155b2c4774f05c36eec6",
+        "name": "Classic Mojito",
+        "recipe": "Muddle fresh mint leaves, lime wedges, and sugar in a glass. Add white rum, ice, and top with soda water. Stir gently, garnish with more mint, and serve with a lime wedge for a refreshing twist",
+        "image": "https://i.ibb.co/c2vZtvq/1322403.png",
         "category": "drinks",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee80",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
+        "price": 2.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec7",
+        "name": "Strawberry Mojito",
+        "recipe": "Muddle fresh strawberries, mint, lime wedges, and sugar in a glass. Add white rum, ice, and top with soda water. Stir to combine, garnish with a strawberry and mint sprig for a fruity and refreshing drink",
+        "image": "https://i.ibb.co/c2vZtvq/1322403.png",
+        "category": "drinks",
+        "price": 2.49
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec8",
+        "name": "Mango Mojito",
+        "recipe": "Muddle fresh mango chunks, mint, lime wedges, and sugar in a glass. Pour white rum and ice, then top with soda water. Stir well and garnish with a slice of mango and mint for a tropical flair",
+        "image": "https://i.ibb.co/c2vZtvq/1322403.png",
+        "category": "drinks",
+        "price": 4.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec9",
+        "name": "Pineapple Mojito",
+        "recipe": "Muddle pineapple chunks, mint leaves, lime wedges, and sugar in a glass. Add white rum, ice, and soda water, and stir. Garnish with a pineapple wedge and mint sprig for a tropical and zesty version of the classic mojito",
+        "image": "https://i.ibb.co/c2vZtvq/1322403.png",
+        "category": "drinks",
+        "price": 1.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eec9",
+        "name": "Lasagna",
+        "recipe": "A hearty Italian dish made with layers of pasta, rich meat sauce, ricotta cheese, and mozzarella. Baked to perfection with a golden top layer of melted cheese.",
+        "image": "https://i.ibb.co/71V4FTt/lasagna.jpg",
         "category": "offered",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee90",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb0",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "soup",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8d",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8e",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee99",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb3",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb6",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb8",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Fish Parmentier",
-        "recipe": "Layer cooked white fish with mashed potatoes, top with grated cheese, and bake until golden and bubbly",
+        "price": 1.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eeca",
+        "name": "Roasted Pork",
+        "recipe": "Slow-roasted pork seasoned with a blend of garlic, rosemary, thyme, and olive oil, served with crispy skin and tender meat. Accompanied by roasted vegetables like potatoes and carrots.",
+        "image": "https://i.ibb.co/VVK9k5p/tasty-appetizing-roasted-meat-pork-with-vegetables-thanksgiving-day-closeup.jpg",
+        "category": "offered",
+        "price": 1.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eecb",
+        "name": "Lamb Ribs",
+        "recipe": "Tender lamb ribs marinated with a mixture of olive oil, garlic, and fresh herbs like rosemary and thyme. Roasted to perfection and glazed with a balsamic reduction for added flavor.",
+        "image": "https://i.ibb.co/3vwKQHM/tasty-lamb-ribs-close-up.jpg",
+        "category": "offered",
+        "price": 1.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36eecc",
+        "name": "Cheesy Chicken Slice",
+        "recipe": "Grilled chicken breast slices smothered in a creamy, melted cheese sauce with a touch of garlic and herbs. Served with a side of sautéed vegetables and crispy fries.",
         "image": "https://i.ibb.co/YWvkbZj/top-view-chicken-with-cheese-plate-grey-table-copy-place.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8b",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8f",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee91",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee97",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "pizza",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea0",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea9",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee85",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee93",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "pizza",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee95",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "pizza",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9b",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9c",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9d",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb4",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee98",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee82",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
         "category": "offered",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee86",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9a",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeab",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb1",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eead",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "soup",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeae",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "soup",
-        "price": 10.5
-    }
-]
+        "price": 1.99
+      },
+      {
+        "_id": "642c18352c4774f05c36eeb6",
+        "name": "Chicken Kebab",
+        "recipe": "Chicken, spices, garlic, lemon juice, yogurt",
+        "image": "url_to_image_of_chicken_kebab.jpg",
+        "category": "popular",
+        "price": 7.99
+      },
+      {
+        "_id": "642c675b2c4774f05c36eebc",
+        "name": "California Roll",
+        "recipe": "Crab, avocado, cucumber, rice, nori",
+        "image": "url_to_image_of_california_roll.jpg",
+        "category": "popular",
+        "price": 10.99
+      },
+      {
+        "_id": "642c155b2c4774f45c36eec0",
+        "name": "Sirloin Steak",
+        "recipe": "Sirloin beef, olive oil, garlic, rosemary, salt, pepper",
+        "image": "url_to_image_of_sirloin_steak.jpg",
+        "category": "popular",
+        "price": 19.99
+      },
+      {
+        "_id": "642c155b2c4774f05c36ee4c",
+        "name": "Chicken Salad",
+        "recipe": "Grilled chicken, mixed greens, avocado, balsamic vinaigrette",
+        "image": "url_to_image_of_chicken_salad.jpg",
+        "category": "popular",
+        "price": 8.49
+      }
+  ]
+  

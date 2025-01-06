@@ -5,6 +5,7 @@ const ChefRecommendCard = ({items}) => {
             <figure>
                 <img
                 src={image}
+                className="w-full h-[220px]"
                 alt="Shoes" />
             </figure>
             <div className="card-body">
