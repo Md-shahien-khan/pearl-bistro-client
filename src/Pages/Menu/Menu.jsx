@@ -26,7 +26,6 @@ const Menu = () => {
     const dessert = menu.filter(item => item.category === 'dessert');
     const sushi = menu.filter(item => item.category === 'sushi');
     const steak = menu.filter(item => item.category === 'steak');
-    console.log(pizza, soup);
     return (
         <div>
             <Helmet>

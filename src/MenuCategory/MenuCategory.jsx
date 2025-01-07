@@ -2,6 +2,7 @@ import React from 'react';
 import ChefRecommendCard from '../Pages/ChefRecommend/ChefRecommendCard';
 import MenuCoverCard from '../MenuCoverCArd/MenuCoverCard';
 import MenuItem from '../Pages/shared/MenuItem/MenuItem';
+import { Link } from 'react-router-dom';
 
 const MenuCategory = ({items, title, img, titleInfo}) => {
     // console.log(items)
@@ -16,6 +17,9 @@ const MenuCategory = ({items, title, img, titleInfo}) => {
                     </MenuItem>)
                 }
             </div>
+            <Link to={`/order/${title}`}>
+            <button className="btn text-yellow-700 border-b-yellow-700 hover:bg-black">Order Now</button>
+            </Link>
         </div>
     );
 };

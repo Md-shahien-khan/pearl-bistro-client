@@ -296,32 +296,32 @@
       {
         "_id": "642c18352c4774f05c36eeb6",
         "name": "Chicken Kebab",
-        "recipe": "Chicken, spices, garlic, lemon juice, yogurt",
-        "image": "url_to_image_of_chicken_kebab.jpg",
+        "recipe": "Marinate chicken cubes in a mixture of yogurt, garlic, lemon juice, cumin, paprika, and spices. Skewer the marinated chicken and grill or bake until cooked through, ensuring it’s juicy and flavorful.",
+        "image": "https://i.ibb.co/TvwYTDh/tandoori-chicken-party-86717-16x9.jpg",
         "category": "popular",
         "price": 7.99
       },
       {
-        "_id": "642c675b2c4774f05c36eebc",
+        "_id": "642c15382c4774f05c36eebc",
         "name": "California Roll",
-        "recipe": "Crab, avocado, cucumber, rice, nori",
-        "image": "url_to_image_of_california_roll.jpg",
+        "recipe": "Layer crab meat, avocado, and cucumber inside a sheet of nori and sushi rice. Roll tightly, then cut into bite-sized pieces, topping with a sprinkle of sesame seeds or imitation crab for extra flavor",
+        "image": "https://i.ibb.co/fvqt59N/Dragon-Roll-0286-I.jpg",
         "category": "popular",
         "price": 10.99
       },
       {
         "_id": "642c155b2c4774f45c36eec0",
         "name": "Sirloin Steak",
-        "recipe": "Sirloin beef, olive oil, garlic, rosemary, salt, pepper",
-        "image": "url_to_image_of_sirloin_steak.jpg",
+       "recipe": "Rub the sirloin with olive oil, minced garlic, and fresh rosemary. Grill or pan-sear to your preferred level, then allow to rest before serving to lock in juices, offering a tender and flavorful bite",
+        "image": "https://i.ibb.co/qjzyvHm/53-BGPNAB6-YI63-C7-LFNHEQGYVAA.jpg",
         "category": "popular",
         "price": 19.99
       },
       {
         "_id": "642c155b2c4774f05c36ee4c",
         "name": "Chicken Salad",
-        "recipe": "Grilled chicken, mixed greens, avocado, balsamic vinaigrette",
-        "image": "url_to_image_of_chicken_salad.jpg",
+        "recipe": "Grill chicken breast and slice into strips. Toss with mixed greens, avocado slices, and drizzle with balsamic vinaigrette for a light, healthy meal",
+        "image": "https://i.ibb.co/YdKwhL8/flat-lay-salad-with-chicken-sesame-seeds.jpg",
         "category": "popular",
         "price": 8.49
       }
