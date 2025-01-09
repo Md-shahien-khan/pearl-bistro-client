@@ -5,6 +5,7 @@ import MenuItem from '../Pages/shared/MenuItem/MenuItem';
 import { Link } from 'react-router-dom';
 
 const MenuCategory = ({items, title, img, titleInfo}) => {
+    console.log(title);
     // console.log(items)
     return (
         <div className='pt-8'>
@@ -17,7 +18,7 @@ const MenuCategory = ({items, title, img, titleInfo}) => {
                     </MenuItem>)
                 }
             </div>
-            <Link to={`/order/${title}`}>
+            <Link to={`/order/${title?.toLowerCase()}`}>
             <button className="btn text-yellow-700 border-b-yellow-700 hover:bg-black">Order Now</button>
             </Link>
         </div>
