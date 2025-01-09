@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAeSho888ofYJdhcbpSrjOBV9zK9OaF5CU",
-  authDomain: "pearl-bistro.firebaseapp.com",
-  projectId: "pearl-bistro",
-  storageBucket: "pearl-bistro.firebasestorage.app",
-  messagingSenderId: "169065547866",
-  appId: "1:169065547866:web:5d881b8291849a9f697063"
+  apiKey: import.meta.env.VITE_apiKey ,
+  authDomain: import.meta.env.VITE_authDomain ,
+  projectId: import.meta.env.VITE_projectId ,
+  storageBucket: import.meta.env.VITE_storageBucket ,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId ,
+  appId: import.meta.env.VITE_appId 
 };
 
 // Initialize Firebase
