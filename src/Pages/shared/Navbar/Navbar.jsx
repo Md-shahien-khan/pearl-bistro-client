@@ -25,6 +25,7 @@ const Navbar = () => {
             <li><Link to='/secret'>Secret</Link></li>
             {
                 user ? <>
+                <li><Link to='/myProfile'>My Profile</Link></li>
                 <button onClick={handleLogOut} className="btn btn-ghost text-xl">Logout</button>
                 </> : <>
                 <li><Link to='/login'>Login</Link></li>

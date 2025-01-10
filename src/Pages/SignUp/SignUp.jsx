@@ -1,18 +1,21 @@
 import loginBg from '../../assets/others/authentication2.png'
 import loginBg2 from '../../assets/others/authentication.png'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import {  useContext, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import { AuthContext } from '../../providers/AuthProvider';
+import Swal from 'sweetalert2';
 
 
 const SignUp = () => {
     // React Hook Form
     const {register, handleSubmit, watch, formState : { errors }, reset } = useForm();
     // getting create user from authContext
-    const {createUser} = useContext(AuthContext);
+    const {createUser, updateUserProfile} = useContext(AuthContext);
+    // navigate
+    const navigate = useNavigate();
 
     // submit form
     const onSubmit = data => {
@@ -21,6 +24,30 @@ const SignUp = () => {
             .then(result =>{
                 const loggedUser = result.user;
                 console.log(loggedUser);
+                updateUserProfile(data.name, data.photoURL)
+                    .then(() => {
+                        console.log('user profile info updated');
+                        reset();
+                        Swal.fire({
+                            title: "User created successfully",
+                            showClass: {
+                              popup: `
+                                animate__animated
+                                animate__fadeInUp
+                                animate__faster
+                              `
+                            },
+                            hideClass: {
+                              popup: `
+                                animate__animated
+                                animate__fadeOutDown
+                                animate__faster
+                              `
+                            }
+                          });
+                          navigate('/')
+                    })
+                    .catch(error => console.log(error))
             })
     };
     // console.log(watch("example"));
@@ -54,6 +81,14 @@ const SignUp = () => {
                     </label>
                     <input type="text" name='name' {...register("name" , { required : true })} placeholder="Enter your name" className="input input-bordered" required />
                     {errors.name && <span className='text-red-600'>Name is required</span>}
+                    </div>
+                    <div className="form-control">
+                        {/* photo url */}
+                    <label className="label">
+                        <span className="label-text text-yellow-800 text-xl">Photo URL</span>
+                    </label>
+                    <input type="text" name='name' {...register("photoURL" , { required : true })} placeholder="Photo URL" className="input input-bordered" required />
+                    {errors.photoURL && <span className='text-red-600'>Photo URL is required</span>}
                     </div>
                     <div className="form-control">
                         {/* Email */}
