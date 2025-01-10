@@ -9,7 +9,7 @@ import { FaEye, FaEyeSlash, FaGoogle } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Swal from 'sweetalert2';
 import { signInWithPopup } from 'firebase/auth';
-import { GoogleAuthProvider } from 'firebase/auth/web-extension';
+import { GoogleAuthProvider } from 'firebase/auth';
 
 const Login = () => {
     const [disabled, setDisabled] = useState(true);
@@ -18,6 +18,7 @@ const Login = () => {
     const location = useLocation();
 
     const from = location.state?.from?.pathname || "/";
+    console.log('state in the location login page', location.state)
 
     // getting sign in from authContext
     const {signIn, auth} = useContext(AuthContext);
@@ -159,7 +160,8 @@ const Login = () => {
                     {/* <button className='btn btn-outline btn-xs mt-2 bg-yellow-700 text-white'>Validate</button> */}
                 </div>
                 <div className="form-control mt-2">
-                    <input disabled={disabled} className="btn text-white border-yellow-700 bg-yellow-800 hover:bg-yellow-600" type="submit" value="Login" />
+                    {/* remove flase and disabled again later */}
+                    <input disabled={false} className="btn text-white border-yellow-700 bg-yellow-800 hover:bg-yellow-600" type="submit" value="Login" />
                 </div>
                 {/* google login */}
                 <button className="btn bg-yellow-800 text-white hover:bg-yellow-600 mt-2" onClick={handleSignInGoogle}>
