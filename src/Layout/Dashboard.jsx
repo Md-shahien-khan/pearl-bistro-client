@@ -8,9 +8,10 @@ const Dashboard = () => {
         <div className="flex ">
             {/* dashboard side bar */}
             <div className="w-64 min-h-screen bg-yellow-700">
-                <ul className="menu p-4">
+                <ul className="menu p-5">
+                    {/* p4 chilo niche user home chilo just */}
                     <li>
-                        <NavLink to='/dashboard/userHome'><FaHome></FaHome> User Home</NavLink>
+                        <NavLink to='/dashboard/userHome'><FaHome></FaHome> User Home part</NavLink>
                     </li>
                     <li>
                         <NavLink to='/dashboard/cart'><FaShoppingCart></FaShoppingCart> My Cart</NavLink>
