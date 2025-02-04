@@ -7,6 +7,8 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
+import useAxiosPublic from '../../hooks/useAxiosPublic';
+
 
 
 const SignUp = () => {
@@ -16,36 +18,47 @@ const SignUp = () => {
     const {createUser, updateUserProfile} = useContext(AuthContext);
     // navigate
     const navigate = useNavigate();
-
+    // axios public 
+    const axiosPublic = useAxiosPublic();
     // submit form
     const onSubmit = data => {
         console.log(data);
         createUser(data.email, data.password)
             .then(result =>{
                 const loggedUser = result.user;
-                console.log(loggedUser);
+                // console.log(loggedUser);
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
-                        console.log('user profile info updated');
-                        reset();
-                        Swal.fire({
-                            title: "User created successfully",
-                            showClass: {
-                              popup: `
-                                animate__animated
-                                animate__fadeInUp
-                                animate__faster
-                              `
-                            },
-                            hideClass: {
-                              popup: `
-                                animate__animated
-                                animate__fadeOutDown
-                                animate__faster
-                              `
-                            }
-                          });
-                          navigate('/')
+                        // console.log('user profile info updated');
+                        const userInfo = {
+                            name : data.name,
+                            email : data.email
+                        }
+                        axiosPublic.post('/users', userInfo)
+                            .then(res =>{
+                                if(res.data.insertedId){
+                                    console.log('user added to database');
+                                    reset();
+                                    Swal.fire({
+                                        title: "User created successfully",
+                                        showClass: {
+                                          popup: `
+                                            animate__animated
+                                            animate__fadeInUp
+                                            animate__faster
+                                          `
+                                        },
+                                        hideClass: {
+                                          popup: `
+                                            animate__animated
+                                            animate__fadeOutDown
+                                            animate__faster
+                                          `
+                                        }
+                                      });
+                                      navigate('/') 
+                                }
+                            })
                     })
                     .catch(error => console.log(error))
             })
