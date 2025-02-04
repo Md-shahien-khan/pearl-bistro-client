@@ -5,11 +5,12 @@ import loginBg from '../../assets/others/authentication2.png'
 import loginBg2 from '../../assets/others/authentication.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
-import { FaEye, FaEyeSlash, FaGoogle } from 'react-icons/fa';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Swal from 'sweetalert2';
-import { signInWithPopup } from 'firebase/auth';
-import { GoogleAuthProvider } from 'firebase/auth';
+// import { signInWithPopup } from 'firebase/auth';
+import SocialLogin from '../../hooks/SocialLogin';
+// import { GoogleAuthProvider } from 'firebase/auth';
 
 const Login = () => {
     const [disabled, setDisabled] = useState(true);
@@ -21,8 +22,8 @@ const Login = () => {
     console.log('state in the location login page', location.state)
 
     // getting sign in from authContext
-    const {signIn, auth} = useContext(AuthContext);
-    const provider = new GoogleAuthProvider();
+    const {signIn} = useContext(AuthContext);
+    // const provider = new GoogleAuthProvider();
 
     // Login form
     const handleLogin = e =>{
@@ -59,34 +60,34 @@ const Login = () => {
     };
 
     // Handle Google login
-    const handleSignInGoogle = () => {
-        signInWithPopup(auth, provider)
-        .then(result => {
-            const user = result.user;
-            console.log(user);
-            Swal.fire({
-                title: "User login successful",
-                showClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeInUp
-                    animate__faster
-                  `
-                },
-                hideClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeOutDown
-                    animate__faster
-                  `
-                }
-              });
-              navigate(from, {replace : true});            
-        })
-        .catch(error => {
-            console.log("Google login error:", error);
-        });
-    };
+    // const handleSignInGoogle = () => {
+    //     signInWithPopup(auth, provider)
+    //     .then(result => {
+    //         const user = result.user;
+    //         console.log(user);
+    //         Swal.fire({
+    //             title: "User login successful",
+    //             showClass: {
+    //               popup: `
+    //                 animate__animated
+    //                 animate__fadeInUp
+    //                 animate__faster
+    //               `
+    //             },
+    //             hideClass: {
+    //               popup: `
+    //                 animate__animated
+    //                 animate__fadeOutDown
+    //                 animate__faster
+    //               `
+    //             }
+    //           });
+    //           navigate(from, {replace : true});            
+    //     })
+    //     .catch(error => {
+    //         console.log("Google login error:", error);
+    //     });
+    // };
 
     // loadCaptchaEngine
     useEffect(() =>{
@@ -164,9 +165,7 @@ const Login = () => {
                     <input disabled={false} className="btn text-white border-yellow-700 bg-yellow-800 hover:bg-yellow-600" type="submit" value="Login" />
                 </div>
                 {/* google login */}
-                <button className="btn bg-yellow-800 text-white hover:bg-yellow-600 mt-2" onClick={handleSignInGoogle}>
-                <FaGoogle className='text-orange-600 text-xl'/> Login with Google
-              </button>
+                <SocialLogin></SocialLogin>
                 <p className='text-yellow-800'>Don't have an account? Please <Link to='/signup' className='font-bold'>Sign Up</Link></p>
             </form>
         </div>

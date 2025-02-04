@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
 import useAxiosPublic from '../../hooks/useAxiosPublic';
+import SocialLogin from '../../hooks/SocialLogin';
 
 
 
@@ -146,6 +147,8 @@ const SignUp = () => {
                     <div className="form-control mt-2">
                         <input className="btn text-white border-yellow-700 bg-yellow-800 hover:bg-yellow-600" type="submit" value="Sign Up" />
                     </div>
+                    {/* google login */}
+                    <SocialLogin></SocialLogin>
                     <p className='text-yellow-800'>Already have an account? Please <Link to='/login' className='font-bold'>Login</Link></p>
                     <button
                 type="button"
