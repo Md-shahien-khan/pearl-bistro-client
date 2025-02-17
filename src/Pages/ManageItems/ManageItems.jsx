@@ -5,6 +5,7 @@ import { RxUpdate } from "react-icons/rx";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import useMenu from "../../hooks/UseMenu";
+import { Link } from "react-router-dom";
 
 const ManageItems = () => {
     const axiosSecure = useAxiosSecure();
@@ -14,7 +15,7 @@ const ManageItems = () => {
     //     .then(res => res.json())
     //     .then(data => setMenu(data))
     // }, []);
-    const [menu, refetch] = useMenu();
+    const [menu, loading, refetch] = useMenu();
 
     // handleDeleteItem 
     const handleDeleteItem = (item) =>{
@@ -29,7 +30,7 @@ const ManageItems = () => {
           }).then(async (result) => {
             if (result.isConfirmed) {
                 const res = await axiosSecure.delete(`/menu/${item._id}`)
-                // console.log(res.data);
+                console.log(res.data);
                 if(res.data.deletedCount > 0){
                     // refetch to update the UI
                     refetch();
@@ -87,11 +88,12 @@ const ManageItems = () => {
                                 </td>
                                 <td>${item.price}</td>
                                 <td>
+                                <Link to={`/dashboard/updateItem/${item._id}`}>
                                 <button
-                                    onClick={()=> handleUpdateItem(item)}
                                     className="btn btn-ghost btn-lg">
                                         <RxUpdate />
-                                    </button> 
+                                </button> 
+                                </Link>
                                 </td>
                                 <td>    
                                     <button

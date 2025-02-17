@@ -4,10 +4,12 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import { FaShoppingCart } from "react-icons/fa";
 import useCart from "../../../hooks/useCart";
 import logo from '../../../../public/logo.png'
+import useAdmin from "../../../hooks/useAdmin";
 
 const Navbar = () => {
     // getting create user from authContext
     const {user, logOut} = useContext(AuthContext);
+    const [isAdmin] = useAdmin();
     const [cart] = useCart();
     
     // handle logout
@@ -24,9 +26,14 @@ const Navbar = () => {
             <div className="flex flex-col lg:flex-row items-center justify-center text-yellow-400 font-bold lg:text-xl">
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/menu'>Menu</Link></li>
-            <li><Link to='/order/salad'>Order</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
-            <li><Link to='/secret'>Secret</Link></li>
+            <li><Link to='/order/salad'>Order</Link></li>
+            {
+                user && isAdmin && <li><Link to='/dashboard/adminHome'>Dashboard</Link></li>
+            }
+            {
+                user && !isAdmin && <li><Link to='/dashboard/userHome'>Dashboard</Link></li>
+            }
             <li>
                 <Link to='/dashboard/cart'>
                 <button className="btn bg-stone-700">
@@ -37,6 +44,7 @@ const Navbar = () => {
             </li>
             {
                 user ? <>
+                
                 <li><Link to='/myProfile'>My Profile</Link></li>
                 <button onClick={handleLogOut} className="btn btn-ghost text-xl">Logout</button>
                 </> : <>

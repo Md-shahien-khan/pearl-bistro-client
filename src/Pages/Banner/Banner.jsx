@@ -6,7 +6,7 @@ import img3 from '../../../src/assets/home/01.jpg'
 
 const Banner = () => {
     return (
-        <Carousel
+        <Carousel 
         autoPlay={true}
         stopOnHover={true}       
         infiniteLoop={true}       
