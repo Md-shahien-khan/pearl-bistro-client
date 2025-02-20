@@ -8,7 +8,7 @@ const useMenu = () => {
     // const [loading, setLoading] = useState(true);
 
     // useEffect(() => {
-    //     fetch('http://localhost:5000/menu') //Correct path to access the JSON file in the public folder
+    //     fetch('https://pearl-bistro-server.vercel.app/menu') //Correct path to access the JSON file in the public folder
     //         .then(res => {
     //             if (!res.ok) {
     //                 throw new Error(`HTTP error! Status: ${res.status}`);

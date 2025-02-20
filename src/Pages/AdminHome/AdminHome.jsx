@@ -19,13 +19,13 @@ const AdminHome = () => {
         }
     });
 
-    const { data : chartData = [] } = useQuery({
-        queryKey : ['order-stats'],
-        queryFn : async() =>{
-            const res = await axiosSecure.get('/order-stats');
-            return res.data
-        }
-    })
+    // const { data : chartData = [] } = useQuery({
+    //     queryKey : ['order-stats'],
+    //     queryFn : async() =>{
+    //         const res = await axiosSecure.get('/order-stats');
+    //         return res.data
+    //     }
+    // })
 
     // custom shape for the bar chart
     // const getPath = (x, y, width, height) => {

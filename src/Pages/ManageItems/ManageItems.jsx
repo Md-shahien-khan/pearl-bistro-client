@@ -11,7 +11,7 @@ const ManageItems = () => {
     const axiosSecure = useAxiosSecure();
     // const [menu, setMenu] = useState([]);
     // useEffect(()=>{
-    //     fetch('http://localhost:5000/menu')
+    //     fetch('https://pearl-bistro-server.vercel.app/menu')
     //     .then(res => res.json())
     //     .then(data => setMenu(data))
     // }, []);

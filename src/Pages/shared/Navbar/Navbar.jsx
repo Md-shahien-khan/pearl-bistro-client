@@ -23,7 +23,7 @@ const Navbar = () => {
 
     // nav links
     const navOptions = 
-            <div className="flex flex-col lg:flex-row items-center justify-center text-yellow-400 font-bold lg:text-xl">
+            <div className="flex flex-col lg:flex-row items-center justify-center text-yellow-400 lg:text-xl">
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/menu'>Menu</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
@@ -46,14 +46,14 @@ const Navbar = () => {
                 user ? <>
                 
                 <li><Link to='/myProfile'>My Profile</Link></li>
-                <button onClick={handleLogOut} className="btn btn-ghost text-xl">Logout</button>
+                <button onClick={handleLogOut} className="btn btn-ghost lg:text-xl">Logout</button>
                 </> : <>
                 <li><Link to='/login'>Login</Link></li>
                 </>
             }
             </div>
     return (
-        <div className="navbar bg-yellow-800 bg-opacity-30 fixed z-10 text-white">
+        <div className="navbar bg-yellow-800 bg-opacity-80 fixed z-10 text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -87,9 +87,9 @@ const Navbar = () => {
                     {navOptions}
                 </ul>
             </div>
-            <div className="navbar-end hidden md:block">
-                <a className="btn">Button</a>
-            </div>
+            {/* <div className="navbar-end hidden md:block">
+                <img src={user} alt="" />
+            </div> */}
         </div>
     );
 };

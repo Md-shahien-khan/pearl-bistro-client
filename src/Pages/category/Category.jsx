@@ -25,14 +25,6 @@ const Category = () => {
             subHeading={"From 11.00am to 10.00pm"}
             heading={"Order online"}
             ></SectionTitle>
-            {/* <div className="text-center  shadow-lg hover:scale-100 transform transition duration-300">
-            <p className="text-gray-600 text- md:text-2xl hover:text-black">
-                ---From 11:00am to 10:00pm
-            </p>
-            <h3 className="text-black text-xl font-bold hover:text-yellow-600 hover:shadow-lg hover:scale-105 transition duration-300 hover:underline">
-                You can order as well!!!!
-            </h3>
-            </div> */}
             <Swiper
             slidesPerView={3}
             spaceBetween={30}
