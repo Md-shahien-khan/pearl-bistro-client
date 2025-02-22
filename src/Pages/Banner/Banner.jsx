@@ -6,6 +6,7 @@ import img3 from '../../../src/assets/home/01.jpg'
 
 const Banner = () => {
     return (
+        <div className="">
         <Carousel 
             autoPlay={true}
             stopOnHover={true}       
@@ -23,6 +24,7 @@ const Banner = () => {
                 <img src={img3} className="w-full h-[500px] md:h-[600px] sm:h-[300px] object-cover" />
             </div>
         </Carousel>
+        </div>
     );
 };
 

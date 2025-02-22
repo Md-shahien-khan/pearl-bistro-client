@@ -73,29 +73,25 @@ const PopularMenu = () => {
     return (
         <section>
             <SectionTitle heading={"From Our Menu"} subHeading={"Popular Items"} />
-            
-            {/* Animated Grid */}
             <motion.div 
                 className='grid md:grid-cols-2 gap-10 mb-10'
                 initial="hidden"
                 animate="visible"
                 variants={{
-                    visible: { transition: { staggerChildren: 0.2 } } // Stagger effect
+                    visible: { transition: { staggerChildren: 0.2 } } 
                 }}
             >
                 {menu.map(item => (
                     <motion.div 
                         key={item._id} 
                         variants={itemVariants}
-                        whileHover={{ scale: 1.05 }} // Slight scale-up on hover
-                        whileTap={{ scale: 0.95 }} // Press effect
+                        whileHover={{ scale: 1.05 }} 
+                        whileTap={{ scale: 0.95 }} 
                     >
                         <MenuItem items={item} />
                     </motion.div>
                 ))}
             </motion.div>
-
-            {/* Button with Hover Animation */}
             <motion.div 
                 className='text-center'
                 whileHover={{ scale: 1.1 }}

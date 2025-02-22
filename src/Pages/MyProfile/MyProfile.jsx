@@ -33,7 +33,6 @@ const MyProfile = () => {
           <div className='text-center text-black text-xl mb-1'>Name: {user.displayName || "N/A"}</div>
           <div className='text-center text-black text-xl mb-1'>Email: {user.email}</div>
           <div className='flex flex-col items-center text-center text-black text-xl'>
-            Profile Picture:
             {user.photoURL ? (
               <img src={user.photoURL} alt="Profile" className="w-24 h-24 rounded-full mt-2" />
             ) : (
