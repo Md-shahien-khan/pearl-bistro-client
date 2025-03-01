@@ -1,6 +1,6 @@
 import {
     createBrowserRouter,
-  } from "react-router-dom";
+} from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import Menu from "../Pages/Menu/Menu";
@@ -22,6 +22,7 @@ import Payment from "../Pages/Payment/Payment";
 import PaymentHistory from "../Pages/PaymentHistory/PaymentHistory";
 import UserHome from "../Pages/UserHome/UserHome";
 import AdminHome from "../Pages/AdminHome/AdminHome";
+import AddReviews from "../Pages/AddReview/AddReviews";
 
 
   export const router = createBrowserRouter([
@@ -77,8 +78,8 @@ import AdminHome from "../Pages/AdminHome/AdminHome";
           element : <Cart></Cart>
         },
         {
-          path : 'payment',
-          element : <Payment></Payment>
+          path : 'review',
+          element : <AddReviews></AddReviews>
         },
         {
           path : 'paymentHistory',

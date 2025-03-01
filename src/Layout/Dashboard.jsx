@@ -149,11 +149,11 @@ const Dashboard = () => {
                                     <FaShoppingCart /> My Cart ({cart.length})
                                 </NavLink>
                             </li>
-                            <li className="text-white">
+                            {/* <li className="text-white">
                                 <NavLink to='/dashboard/history' onClick={handleLinkClick}>
                                     <FaCalendar /> Payment History
                                 </NavLink>
-                            </li>
+                            </li> */}
                             <li className="text-white">
                                 <NavLink to='/dashboard/review' onClick={handleLinkClick}>
                                     <MdReviews /> Add Review
